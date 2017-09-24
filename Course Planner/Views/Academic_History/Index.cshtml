@@ -1,0 +1,15 @@
+﻿@model Course_Planner.ViewModels.AcademicViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@foreach (var item in Model.FullCourseList)
+{
+    <ul>@item.CourseName</ul>
+}
+
+@foreach (var history in Model.FullAcademicHistory)
+{
+    <ul>@history.courseCode</ul>
+}
