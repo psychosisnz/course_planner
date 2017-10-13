@@ -202,7 +202,6 @@ E:\Software Process\Course Planner\Course Planner\obj\Debug\Course_Planner.Migra
 E:\Software Process\Course Planner\Course Planner\obj\Debug\Course_Planner.Migrations.addacademichistorytable.resources
 E:\Software Process\Course Planner\Course Planner\obj\Debug\Course_Planner.Migrations.addEmailToUserTable.resources
 E:\Software Process\Course Planner\Course Planner\obj\Debug\Course Planner.csproj.GenerateResource.Cache
-E:\Software Process\Course Planner\Course Planner\obj\Debug\Course Planner.csproj.CoreCompileInputs.cache
 E:\Software Process\Course Planner\Course Planner\obj\Debug\Course Planner.dll
 E:\Software Process\Course Planner\Course Planner\obj\Debug\Course Planner.pdb
 E:\Software Process\Course Planner\Course Planner\obj\Debug\Course_Planner.Migrations.insertdataintotopictable.resources

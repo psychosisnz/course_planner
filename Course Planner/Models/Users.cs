@@ -17,5 +17,7 @@ namespace Course_Planner.Models
         public string Address { get; set; }
         public DateTime DOB { get; set; }
         public string Role { get; set; }
+
+
     }
 }

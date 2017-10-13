@@ -37,5 +37,14 @@ namespace Course_Planner.Controllers
 
             return View(viewmodeldata);
         }
+
+        [HttpPost]
+        public ActionResult Save(Selected_Course selected_course)
+        {
+            _context.Selected_courses.Add(selected_course);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Selected_Course");
+        }
     }
 }

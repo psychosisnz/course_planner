@@ -39,5 +39,12 @@ namespace Course_Planner.Controllers
             modeldata.Id = Idverifier.FindId(User.Identity.Name);
             return View(modeldata);
         }
+        [HttpPost]
+        public ActionResult Save(Academic_History academic_History)
+        {
+            _context.Academic_Historys.Add(academic_History);
+            _context.SaveChanges();
+            return RedirectToAction("Index","Academic_History");
+        }
     }
 }
